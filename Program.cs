@@ -3,7 +3,8 @@
 // all of the days
 
 List<AOC.Day> days = new List<AOC.Day>() {
-    new AOC.DayOne()
+    new AOC.DayOne(),
+    new AOC.DayTwo()
     };
 int day = -1;
 
@@ -11,7 +12,7 @@ while(true)
 {
     
     Console.WriteAscii("Advant Of Code 2022");
-    
+
     Console.Write("\nDay >");
 
     int.TryParse(Console.ReadLine(), out day);

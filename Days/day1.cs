@@ -1,4 +1,3 @@
-using System.Collections;
 using Console = Colorful.Console;
 
 namespace AOC {
@@ -40,7 +39,6 @@ namespace AOC {
                 }
                 
             }
-            
             elves.Add(currentElf); // add the last one
 
             elves = elves.OrderByDescending((e) => e.calories).ToList();
